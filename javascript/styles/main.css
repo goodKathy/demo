@@ -1,0 +1,23 @@
+header img{
+	display: block;
+	overflow: hidden;
+}
+#javascript{
+	margin: 20px 245px 60px;
+}
+li{
+    
+}
+a{
+	display: block;
+	text-decoration: none;
+	font-family: "Microsoft Yahei", sans-serif;
+	line-height: 1.5em;
+	color: blue;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: grey;
+}
