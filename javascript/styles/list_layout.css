@@ -1,0 +1,25 @@
+*{
+	font-family: "Times New Roman";
+}
+p,a{
+	font-size: 20px;
+}
+#slideshow{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #cce;
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+
+}
+#preview{
+	position: absolute;
+}
+#linklist{
+	display: inline-block;
+	float: left;
+}
+
