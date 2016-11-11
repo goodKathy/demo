@@ -12,7 +12,9 @@ h1,h2{
   padding-right: 4px;
 }
 .photo img{
-  width: 1010px;
+  display: inline-block;
+  width: 100%;
+  height: auto;
 }
 .photo p{
   text-align: center;
@@ -20,17 +22,16 @@ h1,h2{
   margin: 10px auto;
 }
 h3{
-  margin-top: 40px;
-  margin-left: 190px;
+  width: 640px;
+  margin: 40px auto 0;
 }
 .timeline{
   width: 646px;
-  margin-top: 10px;
-  margin-left: 190px;
+  margin: 10px auto 0;
 }
 .footer{
-  width: 670px;
-  margin-left: 190px;
+  width: 662px;
+  margin: 0 auto 0;
 }
 .footer p{
   font-size: 25px;
