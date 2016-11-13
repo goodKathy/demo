@@ -1,0 +1,241 @@
+.container{
+  width: 100%; 
+  padding: 0;
+}
+nav{
+  background-color: #C0C0C0; 
+}
+.container-fluid{
+  background-color: #D3D3D3;
+  width: 87%;
+  padding: 0;
+  font-weight: bold;
+}
+.navbar-header{
+  padding-left: 14px;
+}
+.navbar-brand{
+  border-bottom: 2px solid #AAAAAA;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+.navbar-brand:hover{
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.navbar-nav a{
+  color: black;
+  font-size: 15px;
+  background-color: #AAAAAA;
+}
+/* Home */
+#home{
+  width: 100%;
+  height: 700px;
+  background:   url("http://pic.qiantucdn.com/58pic/19/14/81/99K58PIC9hT_1024.jpg") no-repeat fixed ;
+  background-size: 100% 700px;
+  opacity: 0.8;
+}
+#home .intro{
+   padding-top: 120px;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 62px;
+  color: #A9A9A9;
+  text-shadow: 1px 1px 1px #000000;
+}
+#title1{
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+.hr1{
+  width: 70%;
+  border-top: 2px solid #C0C0C0;
+  border-bottom: 1px solid #808080;
+}
+.btnlist{
+  text-align: center;
+}
+.btnlist a{
+  border: 2px solid #696969;
+  margin: 0 6px;
+  color: #000000;
+  Text-shadow: 1px 0 1px #000000;
+  box-shadow: 2px 2px 2px #696969;
+}
+.btnlist a:hover{
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 1px 1px 3px #000000;
+}
+
+/* About */
+#about{
+  width: 100%;
+  height: 700px;
+  background:   url("http://pic.qiantucdn.com/58pic/19/81/22/18h58PICv62_1024.jpg") no-repeat fixed;
+  background-size: 100% 700px;
+}
+#about .about_desc{
+  margin: 0;
+  margin-top: 70px;
+  margin-left: 90px;
+  width: 500px;
+  float: left;
+}
+#title2{
+  color: #000000;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.about_desc p{
+  color: #000000;
+  font-size: 22px;
+}
+.about_desc p span{
+  color: #FFFFFF;
+}
+.about_pic{
+  float: left;
+  margin-top: 160px;
+  margin-left: 260px;
+}
+.about_pic img{
+  border: 2px solid #C0C0C0;
+}
+
+/* portfolio */
+#portfolio{
+  width: 100%;
+  height: 820px;
+  background:   url("http://pic.qiantucdn.com/58pic/19/93/08/81H58PICE75_1024.jpeg") no-repeat fixed;
+  background-size: 100% 700px;
+  padding-top: 70px;
+}
+#title3{
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+#title3_desc{
+  color: #000000;
+  font-size: 23px;
+  text-align: center;
+  font-weight: bold;
+}
+.row{
+  padding:0 100px;
+  width: 100%;
+  text-align: center;
+}
+.port_container{
+  border: 1px solid #FFFFFF;
+  margin-bottom: 30px;
+}
+.port_container:hover{
+  box-shadow: 5px 10px 3px #000000;
+}
+
+.thumbnail{
+  margin: 0;
+  padding: 0;
+  z-index: 200;
+}
+.thumbnail img{
+  z-index: 10;
+}
+.thumbnail:hover{
+  background: #000000 url("https://36.media.tumblr.com/a4a06b925ad2ad936ba2ce6c3343c444/tumblr_nwh4epTtMV1ud7rr3o1_1280.jpg") no-repeat;
+  opacity: 0.6;
+}
+.caption{
+  height: 90px;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.9;
+  padding-top: 10px;
+}
+h4{
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+h5{
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* About */
+#contact{
+  width: 100%;
+  height: 700px;
+  background:   url("http://pic.qiantucdn.com/58pic/11/29/95/73Y58PICAPt.jpg") no-repeat fixed;
+  background-size: 100% 700px;
+  padding-top: 100px;
+}
+.contact_content{
+  width: 80%;
+   
+}
+.contact_caption{
+  margin-left: 90px;
+  float: left;
+}
+#title4{
+  color: #000000;
+  font-style: normal;
+  padding: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+.btn_vertical{
+  width: 100px;
+  float: right;
+  padding-top: 20px;
+}
+.btn_vertical a{
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+}
+
+/*footer*/
+#footer{
+  width: 100%;
+  height: 160px;
+  background-color: #C0C0C0;
+  padding-top: 50px;
+}
+.footer_content{
+  margin-left: 95px;
+}
+.footer_content ul{
+  padding: 0;
+}
+.footer_content ul li{
+  display: inline-block;
+  margin-right: 3px;
+}
+.footer_content ul li a{
+  font-style: normal;
+  font-weight: bold;
+}
+.footer_content ul li span{
+  font-weight: bold;
+}
+.footer_content p{
+  font-style: normal;
+  font-size: 11px;
+  font-weight: bold;
+  color: #808080;  
+}
+
+
