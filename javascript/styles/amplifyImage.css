@@ -1,0 +1,20 @@
+ul{
+	text-align: center;
+}
+p{
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	color: #798682;
+	text-align: center;
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+}
+#tooltip{
+	display: none;
+	position: absolute;
+	background-color: #5f949f;
+	color: white;
+}	

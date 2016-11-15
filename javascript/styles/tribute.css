@@ -1,0 +1,39 @@
+.jumbotron{
+  margin-top: 70px;
+}
+h1,h2{
+  text-align: center;
+}
+.photo{
+  background-color: white;
+  border: 1px solid #DCDCDC;
+  border-radius: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.photo img{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.photo p{
+  text-align: center;
+  font-size: 14px;
+  margin: 10px auto;
+}
+h3{
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 179px;
+}
+.timeline{
+  width: 100%;
+  padding: 0 185px;
+}
+.footer{
+  width: 100%;
+  padding: 0 179px;
+}
+.footer p{
+  font-size: 25px;
+}
