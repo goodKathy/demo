@@ -1691,7 +1691,8 @@ body{
    width: 10px;
    margin-top: 8px;
    font-size: 13px;
-   opacity: 0;
+   cursor: pointer;
+   display: none;
 }
 .dress_foot .toLeft:hover, .dress_foot .toRight:hover{
 	color: #ee0077;
@@ -1708,6 +1709,7 @@ body{
 	width: 1140px;
     position: absolute;
     display: inline-block;
+    top: 0;
     left: 0;
 }
 .dress_foot .foot_container .foot_content li{

@@ -585,11 +585,11 @@
 			<div class="sec_head_r">
 				<span>当前场次</span>
 				<div class="timer">
-					<div class="num" id="hour">02</div>
+					<div class="num" id="hour">20</div>
 					<div class="colon">:</div>
-					<div class="num" id="minute">35</div>
+					<div class="num" id="minute">59</div>
 					<div class="colon">:</div>
-					<div class="num" id="second">51</div>
+					<div class="num" id="second">59</div>
 				</div>
 				<span>后结束抢购</span>
 			</div>
@@ -827,16 +827,16 @@
 	<!-- 左侧边栏开始 -->
 	<div id="sidebar_l">
 		<ul class="sidebar_list">
-			<li><a href="#anchor1" class="active">享品质</a></li>
-			<li><a href="#anchor2">服饰美妆</a></li>
-			<li><a href="#anchor3">家电手机</a></li>
-			<li><a href="#anchor4">电脑数码</a></li>
-			<li><a href="#anchor5">3 C运动</a></li>
-			<li><a href="#anchor6">爱吃</a></li>
-			<li><a href="#anchor7">母婴家居</a></li>
-			<li><a href="#anchor8">图书汽车</a></li>
-			<li><a href="#anchor9">虚拟</a></li>
-			<li><a href="#anchor10" class="last">还没逛够</a></li>
+			<li><a id="link1" href="#anchor1" class="active">享品质</a></li>
+			<li><a id="link2" href="#anchor2">服饰美妆</a></li>
+			<li><a id="link3" href="#anchor3">家电手机</a></li>
+			<li><a id="link4" href="#anchor4">电脑数码</a></li>
+			<li><a id="link5" href="#anchor5">3 C运动</a></li>
+			<li><a id="link6" href="#anchor6">爱吃</a></li>
+			<li><a id="link7" href="#anchor7">母婴家居</a></li>
+			<li><a id="link8" href="#anchor8">图书汽车</a></li>
+			<li><a id="link9" href="#anchor9">虚拟</a></li>
+			<li><a id="link10" href="#anchor10" class="last">还没逛够</a></li>
 		</ul>
 		<a href="#header" class="toTop"><img src="images/JD/toTop_l.png" /></a>
 	</div>
@@ -852,8 +852,8 @@
 
 	<!-- 享品质开始 -->
 	<div id="quality">
-		<div class="qualdot"><img src="images/JD/qualdot.png" alt="享品质"/></div>
-		<ul id="anchor1" class="qual_content" >
+		<div id="anchor1" class="qualdot anchor"><img src="images/JD/qualdot.png" alt="享品质"/></div>
+		<ul class="qual_content anchor" >
 			<li id="item1">
 				<div class="txt">
 					<div class="txt_content">
@@ -936,7 +936,7 @@
 	<div id="lovelife">
 		<div class="lifedot"><img src="images/JD/lifedot.png"/></div>
 		<!-- 服饰美妆开始 -->
-		<div id="anchor2" class="costume">
+		<div id="anchor2" class="costume anchor">
 			<div class="dress">
                 <div class="dress_head">
                 	<h3>爱逛</h3>
@@ -1122,7 +1122,7 @@
 		<!-- 服饰美妆结束 -->
 
 		<!-- 家电手机开始 -->
-		<div id="anchor3" class="appli">
+		<div id="anchor3" class="appli anchor">
 			<div class="household">
                 <div class="household_head">
                 	<h3>家用电器</h3>
@@ -1310,7 +1310,7 @@
 
 	<!-- 电脑数码开始 -->
 	<div id="digital">
-        <div id="anchor4" class="digital_head">
+        <div id="anchor4" class="digital_head anchor">
             <h3>电脑数码</h3>
             <ul>
                 <li><a href="#">IT精选</a></li>
@@ -1488,7 +1488,7 @@
 
 	<!-- 3C运动开始 -->
 	<div id="threeCsport">
-		<div id="anchor5" class="threeC">
+		<div id="anchor5" class="threeC anchor">
             <div class="threeC_head">
             	<h3>玩3C</h3>
             	<ul>
@@ -1682,7 +1682,7 @@
 
 	<!-- 爱吃开始 -->
 	<div id="eat">
-        <div id="anchor6" class="eat_head">
+        <div id="anchor6" class="eat_head anchor">
             <h3>爱吃</h3>
             <ul>
                 <li><a href="#">坚果蜜饯</a></li>
@@ -1845,7 +1845,7 @@
 
 	<!-- 母婴家居开始 -->
 	<div id="maternal">
-		<div id="anchor7" class="baby">
+		<div id="anchor7" class="baby anchor">
             <div class="baby_head">
             	<h3>爱宝宝</h3>
             	<ul>
@@ -2031,7 +2031,7 @@
 
 	<!-- 图书汽车开始 -->
 	<div id="bookcar">
-		<div id="anchor8" class="book">
+		<div id="anchor8" class="book anchor">
             <div class="book_head">
             	<h3>爱阅读</h3>
             	<ul>
@@ -2217,7 +2217,7 @@
 
 	<!-- 虚拟开始 -->
 	<div id="virtual">
-		<div id="anchor9" class="game">
+		<div id="anchor9" class="game anchor">
             <div class="game_head">
             	<h3>爱游戏</h3>
             	<ul>
@@ -2484,7 +2484,7 @@
 
 	<!-- 还没逛够开始 -->
 	<div id="shopmore">
-		<div id="anchor10" class="shopmoredot">
+		<div id="anchor10" class="shopmoredot anchor">
 			<img src="images/JD/shopmoredot.png"/>
 		</div>
 		<ul class="shopmore_content">
@@ -3373,6 +3373,7 @@
 	</div>
 	<!-- 底部结束 -->
     <script src="scripts/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="scripts/jquery.cookie.js" type="text/javascript"></script>
     <script src="scripts/jingdong.js" type="text/javascript"></script>
 </body>
 </html>
