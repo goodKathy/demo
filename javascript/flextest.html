@@ -1,0 +1,102 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>移动端Flex布局的一个实例</title>
+    <style>
+        html{
+            font-size: 100px;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: "Microsoft Yahei";
+        }
+        .wrapper{
+            height: 100%;
+            
+        }
+        .header{
+            height:10%;
+            font-size: 0.4rem;
+            background-color: grey;
+            text-align: center;
+            margin-bottom: 2%;
+            color: white;
+
+        }
+        .footer{
+            height:10%;
+            font-size: 0.4rem;
+            text-align: center;
+            background-color: grey;
+            color: white;
+
+        }
+        .container{
+            font-size: 0.25rem;
+            width: 100%;
+            height: 79%;
+            overflow:hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .container .baseline{
+            order: 0;
+            flex: 2;
+            width: 100%;
+            background: orange;
+        }
+        .container .info{
+            height: 50px;
+            background: grey;
+            color: white;
+            margin-bottom: 2%;
+        }
+        .container .logo{
+            flex: 3;
+            order: 2;
+            background: orange;
+            margin-bottom: 2%;
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        .container .logo p{
+        	font-size: 0.2rem;
+        }
+        .container .logo .left{
+            flex: 4;
+            margin-right: 10px;
+            background: white;
+        }
+        .container .logo .right{
+            flex: 3;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">header</div>
+        <section class="container">
+            <div class="baseline">image</div>
+            <div class="info"> image description</div>
+            <div class="logo">
+                <div class="left">
+                	left side
+                	<p>随意伸缩页面高度和宽度，内容块的大小弹性自适应</p>
+                </div>
+                <div class="right">
+                	right side
+                	<p>随意伸缩页面高度和宽度，内容块的大小弹性自适应</p>
+                </div>
+            </div>
+        </section>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
