@@ -12,9 +12,10 @@ Demos in HTML, CSS, JavaScript, jQuery, Bootstrap etc. Keep updating...
 4. [用jQuery打造Jane Shop电商网站商品详情页](http://zhouxiaoshu.com/demo/javascript/goodsdetail.html)
 5. [模仿京东首页](http://zhouxiaoshu.com/demo/javascript/jingdong.html)
 
-##Bootstrap
-1. [Norman Borlaug致敬页面](http://zhouxiaoshu.com/demo/javascript/tribute.html)
-2. [Thiago Ferreira作品集页面](http://zhouxiaoshu.com/demo/javascript/portfolio.html)
+##CSS
+1. [Bootstrap实例: Norman Borlaug致敬页面](http://zhouxiaoshu.com/demo/javascript/tribute.html)
+2. [Bootstrap实例: Thiago Ferreira作品集页面](http://zhouxiaoshu.com/demo/javascript/portfolio.html)
+3. [移动端Flex布局的一个实例](http://zhouxiaoshu.com/demo/javascript/flextest.html)
 
 
 See all [Demos](http://zhouxiaoshu.com/demo/).
